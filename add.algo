@@ -1,0 +1,39 @@
+// // Initialize counters
+// let sentenceLength = 0;
+// let wordCount = 0;
+// let vowelCount = 0;
+
+// // Read the sentence
+// let sentence = prompt("Enter a sentence ending with a period:");
+
+// // Ensure the sentence ends with a period
+// if (sentence[sentence.length - 1] !== ".") {
+//   console.error("Error: The sentence must end with a period.");
+// } else {
+//   // Process each character
+//   let inWord = false;
+//   for (let i = 0; i < sentence.length; i++) {
+//     let char = sentence[i];
+//     sentenceLength++;
+
+//     // Count vowels
+//     if ("aeiouAEIOU".includes(char)) {
+//       vowelCount++;
+//     }
+
+//     // Count words
+//     if (/[a-zA-Z]/.test(char)) {
+//       if (!inWord) {
+//         wordCount++;
+//         inWord = true;
+//       }
+//     } else if (char === " ") {
+//       inWord = false;
+//     }
+//   }
+
+//   // Output the results
+//   console.log("Sentence Length (characters):", sentenceLength);
+//   console.log("Word Count:", wordCount);
+//   console.log("Vowel Count:", vowelCount);
+// }
